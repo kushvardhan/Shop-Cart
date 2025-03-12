@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+*::selection {
+    color: rgb(204, 151, 51);  /* Golden text */
+    background-color: rgb(30, 42, 79);  /* Deep Navy */
+}
