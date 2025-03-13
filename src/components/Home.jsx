@@ -25,7 +25,7 @@ const Home = () => {
 
     return (
         <div className='w-full h-screen flex'>
-            <div className='w-[20%] h-full bg-zinc-100'>
+            <div className='w-[20%] h-full bg-white relative'>
                 <Nav />
             </div>
             <div className='w-[80%] h-full bg-zinc-200 flex flex-wrap justify-center gap-6 p-4 md:p-8 overflow-x-hidden overflow-y-auto'>

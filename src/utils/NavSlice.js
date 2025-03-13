@@ -8,7 +8,8 @@ const NavSlice = createSlice({
             return [...action.payload];
         },
     }
-})
+}
+)
 
 export const {addNav} = NavSlice.actions;
 export default NavSlice.reducer;
